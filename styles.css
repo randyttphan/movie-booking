@@ -6,7 +6,7 @@ h3 {
   text-align: center;
 }
 
-.container {
+.movie-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,12 @@ h3 {
 img {
   width: 200px;
   height: 300px;
-  margin: 2.5rem;
+  margin: 1.3rem 2.5rem;
+}
+
+h5 {
+  margin: 0;
+  text-align: center;
 }
 
 img:hover {

@@ -9,45 +9,143 @@
   </head>
   <body>
     <h3>Select a movie:</h3>
-    <div class="container">
+    <div class="movie-container">
       <input
         type="radio"
         class="radio_item"
-        value=""
+        value="15"
         name="movie"
         id="avengers"
       />
       <label class="label_item" for="avengers">
         <img src="img/endgame.jpg" />
-      </label>
+        <h5>$15</h5></label
+      >
 
       <input
         type="radio"
         class="radio_item"
-        value=""
+        value="13"
         name="movie"
         id="fastfurious"
       />
       <label class="label_item" for="fastfurious">
         <img src="img/fastfurious.jpg" />
-      </label>
-
-      <input type="radio" class="radio_item" value="" name="movie" id="sonic" />
-      <label class="label_item" for="sonic">
-        <img src="img/sonic.jpg" />
+        <h5>$13</h5>
       </label>
 
       <input
         type="radio"
         class="radio_item"
-        value=""
+        value="11"
+        name="movie"
+        id="sonic"
+      />
+      <label class="label_item" for="sonic">
+        <img src="img/sonic.jpg" />
+        <h5>$11</h5>
+      </label>
+
+      <input
+        type="radio"
+        class="radio_item"
+        value="10"
         name="movie"
         id="toystory"
       />
       <label class="label_item" for="toystory">
         <img src="img/toystory.jpg" />
+        <h5>$10</h5>
       </label>
     </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="screen"></div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <div class="text">
+      You have selected <span id="count">0</span> seats for a price of $<span
+        id="total"
+        >0</span
+      >
+    </div>
+
     <script src="main.js"></script>
   </body>
 </html>
