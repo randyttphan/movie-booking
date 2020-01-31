@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles to replace radio buttons with images */
+img {
+  width: 200px;
+  height: 300px;
+  margin: 2.5rem;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.radio_item {
+  display: none !important;
+}
+
+.label_item {
+  opacity: 0.5;
+}
+
+.radio_item:checked + label {
+  opacity: 1;
+}
