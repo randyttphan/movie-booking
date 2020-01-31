@@ -18,7 +18,7 @@ body {
 
 h3 {
   text-align: center;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 .movie-container {
@@ -26,6 +26,18 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .container {
@@ -120,20 +132,4 @@ img {
 h5 {
   margin: 0;
   text-align: center;
-}
-
-img:hover {
-  cursor: pointer;
-}
-
-.radio_item {
-  display: none !important;
-}
-
-.label_item {
-  opacity: 0.5;
-}
-
-.radio_item:checked + label {
-  opacity: 1;
 }

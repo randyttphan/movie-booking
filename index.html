@@ -8,55 +8,24 @@
     <title>Movie Seat Booking</title>
   </head>
   <body>
-    <h3>Select a movie:</h3>
     <div class="movie-container">
-      <input
-        type="radio"
-        class="radio_item"
-        value="15"
-        name="movie"
-        id="avengers"
-      />
-      <label class="label_item" for="avengers">
-        <img src="img/endgame.jpg" />
-        <h5>$15</h5></label
-      >
+      <img src="img/endgame.jpg" />
 
-      <input
-        type="radio"
-        class="radio_item"
-        value="13"
-        name="movie"
-        id="fastfurious"
-      />
-      <label class="label_item" for="fastfurious">
-        <img src="img/fastfurious.jpg" />
-        <h5>$13</h5>
-      </label>
+      <img src="img/fastfurious.jpg" />
 
-      <input
-        type="radio"
-        class="radio_item"
-        value="11"
-        name="movie"
-        id="sonic"
-      />
-      <label class="label_item" for="sonic">
-        <img src="img/sonic.jpg" />
-        <h5>$11</h5>
-      </label>
+      <img src="img/sonic.jpg" />
 
-      <input
-        type="radio"
-        class="radio_item"
-        value="10"
-        name="movie"
-        id="toystory"
-      />
-      <label class="label_item" for="toystory">
-        <img src="img/toystory.jpg" />
-        <h5>$10</h5>
-      </label>
+      <img src="img/toystory.jpg" />
+    </div>
+
+    <div class="select-container">
+      <label>Select a movie:</label>
+      <select id="movie">
+        <option value="15">Avengers: Endgame $15</option>
+        <option value="13">Fast & Furious: H&S $13</option>
+        <option value="11">Sonic: The Hedgehog $11</option>
+        <option value="10">Disney: Toy Story 4 $10</option>
+      </select>
     </div>
 
     <ul class="showcase">
